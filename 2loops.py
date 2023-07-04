@@ -4,6 +4,7 @@ import datetime
 
 ## necessary imports
 from uiautomator import Device
+#change device ID on the line below
 d = Device('R58R746PGVD')
 from ppadb.client import Client
 adb = Client(host='127.0.0.1', port=5037)
